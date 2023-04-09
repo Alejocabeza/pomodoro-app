@@ -1,0 +1,122 @@
+:root {
+    --black: #1e1a1d;
+    --black-10: #1e1a1d10;
+    --black-20: #1e1a1d20;
+    --black-30: #1e1a1d30;
+    --black-40: #1e1a1d40;
+    --black-50: #1e1a1d50;
+    --black-60: #1e1a1d60;
+    --black-70: #1e1a1d70;
+    --black-80: #1e1a1d80;
+    --black-90: #1e1a1d90;
+
+    --chamoisee: #8c705f;
+    --chamoisee-10: #8c705f10;
+    --chamoisee-20: #8c705f20;
+    --chamoisee-30: #8c705f30;
+    --chamoisee-40: #8c705f40;
+    --chamoisee-50: #8c705f50;
+    --chamoisee-60: #8c705f60;
+    --chamoisee-70: #8c705f70;
+    --chamoisee-80: #8c705f80;
+    --chamoisee-90: #8c705f90;
+
+    --bole: #7F534B;
+    --bole-10: #7F534B10;
+    --bole-20: #7F534B20;
+    --bole-30: #7F534B30;
+    --bole-40: #7F534B40;
+    --bole-50: #7F534B50;
+    --bole-60: #7F534B60;
+    --bole-70: #7F534B70;
+    --bole-80: #7F534B80;
+    --bole-90: #7F534B90;
+
+    --white: #E5F2C9;
+    --white-10: #E5F2C910;
+    --white-20: #E5F2C920;
+    --white-30: #E5F2C930;
+    --white-40: #E5F2C940;
+    --white-50: #E5F2C950;
+    --white-60: #E5F2C960;
+    --white-70: #E5F2C970;
+    --white-80: #E5F2C980;
+    --white-90: #E5F2C990;
+
+    --purple: #1F0318;
+    --purple-10: #1F031810;
+    --purple-20: #1F031820;
+    --purple-30: #1F031830;
+    --purple-40: #1F031840;
+    --purple-50: #1F031850;
+    --purple-60: #1F031860;
+    --purple-70: #1F031870;
+    --purple-80: #1F031880;
+    --purple-90: #1F031890;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    height: 60%;
+    align-items: center;
+    background-color: var(--purple-80);
+    box-shadow: 0 0 25px var(--chamoisee-40);
+    border-radius: 20px;
+    width: 70%;
+}
+
+main .title {
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: bold;
+}
+
+main .container-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+main .button {
+    background-color: var(--purple);
+    border: none;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: var(--white);
+    box-shadow: 0 0 10px var(--chamoisee-40);
+    transition: all .5s;
+}
+
+main .button:hover {
+    box-shadow: none;
+    background-color: var(--chamoisee);
+}
+
+main #app {
+    font-size: 4rem;
+    font-style: italic;
+}
