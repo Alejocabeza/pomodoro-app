@@ -1,0 +1,1 @@
+export const DEFAULT_OPTS = ["Pomodoro", "Short Break", "Long Break"]
